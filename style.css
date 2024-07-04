@@ -1,32 +1,34 @@
-.orange {
-  color: #fbb44c;
+.orangeText {
+  color: #fba64c;
+  padding-bottom: 10px;
 }
 
-.welcome {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #141e4c;
-  color: white;
-  height: 100vh;
-  width: 100%;
+.orangeBackground {
+  background-color: #fba64c;
+  margin-left: 0.25rem;
+  padding: 0.25rem;
+  font-size: 0.875rem;
 }
 
 .title {
+  margin: 0px;
   font-size: 3.5rem;
+  color: white;
 }
 
-.pSize {
+.subtitle {
   font-size: 1rem;
+  color: white;
 }
 
 .photo {
   height: 24px;
   width: auto;
+  margin-left: 1rem;
+  position: relative;
 }
 
-.afla {
+.button {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="despreNoi.html" />
     <link rel="stylesheet" href="contact.html" />
 
-    <link rel="stylesheet" href="flex.css" />
+    <link rel="stylesheet" href="display.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="navbar.css" />
 
@@ -31,145 +31,184 @@
       </ul>
     </nav>
 
-    <div class="welcome">
-      <div style="display: inline-block">
-        <h1 class="title">Bine ai venit!</h1>
-      </div>
-      <div>
-        <p class="pSize">
-          Accelerator de cariere in <span class="orange">{</span>web
-          development<span class="orange">}</span>
-        </p>
-      </div>
-      <div>
-        <p class="pSize">
-          Cursuri IT pentru incepatori cu certificare
-          <img
-            class="photo"
-            src="./resureSiteITSCHOOL/microsoft.png"
-            alt="Microsoft"
-          />
-          <img class="photo" src="./resureSiteITSCHOOL/adobe.png" alt="Adobe" />
-          <img class="photo" src="./resureSiteITSCHOOL/apple.png" alt="Apple" />
-          <img
-            class="photo"
-            src="./resureSiteITSCHOOL/minister.png"
-            alt="Minister"
-          />
-        </p>
-      </div>
-      <div>
-        <a href="aflaMaiMulte.html" class="afla" style="color: white"
-          >AFLA MAI MULTE</a
-        >
-      </div>
-    </div>
+    <main>
+      <section class="welcome">
+        <div class="container">
+          <h1 class="title">Bine ati venit!</h1>
+          <p class="subtitle" style="margin-bottom: 16px; margin-top: 0px">
+            Accelerator de cariere in <span class="orangeText">{</span>web
+            development<span class="orangeText">}</span>
+          </p>
+          <p class="subtitle" style="margin-bottom: 42px; margin-top: 0px">
+            Cursuri IT pentru incepatori cu certificare
+            <img
+              class="photo"
+              src="./resureSiteITSCHOOL/microsoft.png"
+              alt="Microsoft"
+            />
+            <img
+              class="photo"
+              src="./resureSiteITSCHOOL/adobe.png"
+              alt="Adobe"
+            />
+            <img
+              class="photo"
+              src="./resureSiteITSCHOOL/apple.png"
+              alt="Apple"
+            />
+            <img
+              class="photo"
+              src="./resureSiteITSCHOOL/minister.png"
+              alt="Ministerul Educatiei"
+            />
+          </p>
+          <a class="button" class="subtitle" href="aflaMaiMulte.html"
+            >AFLA MAI MULTE</a
+          >
+        </div>
+      </section>
 
-    <div class="courses">
-      <div class="calendarCursuri">
-        <h2>Calendar cursuri</h2>
-      </div>
-
-      <div class="program1">
-        <div class="content">
-          <h3>Python</h3>
-          <div>
-            <span class="date">
-              <span></span>
-              <span>In curand</span>
-            </span>
-
-            <span class="place">
-              <span></span>
-              <span>Online</span>
-            </span>
-          </div>
-
-          <div class="bar"></div>
+      <div class="coursesContainer">
+        <div class="calendarCursuri">
+          <h2>Calendar cursuri</h2>
         </div>
 
-        <div class="content">
-          <h3>Web Development</h3>
-          <div>
-            <span class="date">
-              <span></span>
-              <span>In curand</span>
-            </span>
+        <div class="program1">
+          <div class="course">
+            <div class="content">
+              <h3>Python</h3>
+              <div>
+                <span class="date">
+                  <span></span>
+                  <span>In curand</span>
+                </span>
 
-            <span class="place">
-              <span></span>
-              <span>Online</span>
-            </span>
+                <span class="place">
+                  <span></span>
+                  <span class="orangeBackground">Online</span>
+                </span>
+              </div>
+            </div>
+            <div class="bar"></div>
           </div>
-          <div class="bar"></div>
+
+          <div class="content">
+            <h3>Web Development</h3>
+            <div>
+              <span class="date">
+                <span></span>
+                <span>In curand</span>
+              </span>
+
+              <span class="place">
+                <span></span>
+                <span>Online</span>
+              </span>
+            </div>
+            <div class="bar"></div>
+          </div>
+
+          <div class="content">
+            <h3>Introducere in IT</h3>
+            <div>
+              <span class="date">
+                <span></span>
+                <span>In curand</span>
+              </span>
+
+              <span class="place">
+                <span></span>
+                <span>Online</span>
+              </span>
+            </div>
+            <div class="bar"></div>
+          </div>
         </div>
 
-        <div class="content">
-          <h3>Introducere in IT</h3>
-          <div>
-            <span class="date">
-              <span></span>
-              <span>In curand</span>
-            </span>
+        <div class="program2">
+          <div class="content">
+            <h3>Programare C++</h3>
+            <div>
+              <span class="date">
+                <span></span>
+                <span>In curand</span>
+              </span>
 
-            <span class="place">
-              <span></span>
-              <span>Online</span>
-            </span>
+              <span class="place">
+                <span></span>
+                <span>Online</span>
+              </span>
+            </div>
+            <div class="bar"></div>
           </div>
-          <div class="bar"></div>
+
+          <div class="content">
+            <h3>Programare Java</h3>
+            <div>
+              <span class="date">
+                <span></span>
+                <span>In curand</span>
+              </span>
+
+              <span class="place">
+                <span></span>
+                <span>Online</span>
+              </span>
+            </div>
+            <div class="bar"></div>
+          </div>
+
+          <div class="content">
+            <h3>Graphic Design</h3>
+            <div>
+              <span class="date">
+                <span></span>
+                <span>In curand</span>
+              </span>
+
+              <span class="place">
+                <span></span>
+                <span>Online</span>
+              </span>
+            </div>
+            <div class="bar"></div>
+          </div>
         </div>
       </div>
 
-      <div class="program2">
-        <div class="content">
-          <h3>Programare C++</h3>
-          <div>
-            <span class="date">
-              <span></span>
-              <span>In curand</span>
-            </span>
-
-            <span class="place">
-              <span></span>
-              <span>Online</span>
-            </span>
-          </div>
-          <div class="bar"></div>
+      <section class="whoWeAre">
+        <div class="container" style="background-color: #dfedf5">
+          <h2>Ce este IT School?</h2>
+          <p>
+            IT School este o comunitate educațională de IT, locul unde
+            pasionații acestui domeniu se întâlnesc cu viitorii profesioniști.
+            Timp de peste 7 ani, am construit alături de trainerii IT School un
+            mediu de învățare specializat pentru toți cei care își doresc să
+            descopere oportunitățile acestui domeniu. Ești pregătit să faci
+            parte din comunitatea IT School?
+          </p>
         </div>
-
-        <div class="content">
-          <h3>Programare Java</h3>
-          <div>
-            <span class="date">
-              <span></span>
-              <span>In curand</span>
-            </span>
-
-            <span class="place">
-              <span></span>
-              <span>Online</span>
-            </span>
+        <div class="imagesContainer">
+          <div class="imageWrapper">
+            <img src="./resureSiteITSCHOOL/about-us-1.jpeg" />
           </div>
-          <div class="bar"></div>
-        </div>
-
-        <div class="content">
-          <h3>Graphic Design</h3>
-          <div>
-            <span class="date">
-              <span></span>
-              <span>In curand</span>
-            </span>
-
-            <span class="place">
-              <span></span>
-              <span>Online</span>
-            </span>
+          <div class="imageWrapper">
+            <img src="./resureSiteITSCHOOL/about-us-2.jpeg" />
           </div>
-          <div class="bar"></div>
+          <div class="imageWrapper">
+            <img src="./resureSiteITSCHOOL/about-us-3.jpeg" />
+          </div>
+          <div class="imageWrapper">
+            <img src="./resureSiteITSCHOOL/about-us-4.jpeg" />
+          </div>
+          <div class="imageWrapper">
+            <img src="./resureSiteITSCHOOL/about-us-5.jpeg" />
+          </div>
+          <div class="imageWrapper">
+            <img src="./resureSiteITSCHOOL/about-us-6.jpeg" />
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   </body>
 </html>
